@@ -118,3 +118,21 @@
     transform: scale(1.1);
     transition: 0.4s;
 }
+
+#link-style {
+
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.map {
+    flex: 1 1 42rem;
+    width: 100%;
+
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5rem;
+}

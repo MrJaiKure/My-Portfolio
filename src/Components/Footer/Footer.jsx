@@ -24,9 +24,9 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className='footer-bottom-left'> @2024 Jaideep Kure. All rights reserved</p>
                 <div className="footer-bottom-right">
-                    <p>Term of Services</p>
-                    <p>Privacy Policy</p>
-                    <p>Connet with me</p>
+                    <a href="#" id='link-style'>Term of Services</a>
+                    <a href="#" id='link-style'>Privacy Policy</a>
+                    <a href="#" id='link-style'>Connet with me</a>
                 </div>
             </div>
 

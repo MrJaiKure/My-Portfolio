@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 import theme_pattern from '../../Asests/theme_pattern.svg'
-import Services_Data from '../../Asests/services_data'
+import Services_Data from './services_data'
 import arrow_icon from '../../Asests/arrow_icon.svg'
 const Services = () => {
     return (

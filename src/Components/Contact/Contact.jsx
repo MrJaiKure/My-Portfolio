@@ -38,15 +38,16 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left"><h1>Let's talk</h1>
                     <p>I'm currently available to take on new projects.</p>
-                    <div className="contact-details">
+                    <div className="contact-details" >
                         <div className="contact-detail">
-                            <img src={mail_icon} alt="" /><p>kurejaideep2003@gmail.com</p>
+                            <img src={mail_icon} alt="" /><a href="/" id='link-style'><i>kurejaideep2003@gmail.com</i></a><p></p>
+                        </div>
+                        <div className="contact-detail ">
+                            <img src={call_icon} alt="" /><a href="/" id='link-style'><i>+918080318136</i></a>
+
                         </div>
                         <div className="contact-detail">
-                            <img src={call_icon} alt="" /><p>+918080318136</p>
-                        </div>
-                        <div className="contact-detail">
-                            <img src={location_icon} alt="" /><p>parbhani,Maharashtra</p>
+                            <img src={location_icon} alt="" /><a href="/" id='link-style' ><i>Parbhani , Maharashtra</i></a>
                         </div>
                     </div>
 
