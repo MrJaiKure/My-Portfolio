@@ -6,7 +6,7 @@ import about_profile from "../../Asests/myphoto.jpg";
 import FrontModel from "./utilities/FrontendModel";
 import BackModel from "./utilities/backskills";
 
-// import backskills from './backskills'
+
 const About = () => {
   const [openFModel, setOpenFModel] = useState(false);
 
