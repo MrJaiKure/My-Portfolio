@@ -29,6 +29,7 @@ const Services_Data = [
         s_no: "06",
         s_name: "Backend Devlopment",
         s_desc: "Web development is the process of building, programming..."
+       
     },
 ]
 

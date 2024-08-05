@@ -1,0 +1,65 @@
+.model-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+
+}
+
+.model-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 50rem;
+    padding: 2rem 3rem;
+    transform: translate(-50%, -50%);
+    max-width: 50rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    overflow-y: scroll;
+
+}
+
+.model-btn {
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    justify-content: center;
+
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.model-btn:hover {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.project a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    padding: 5px;
+
+
+
+}

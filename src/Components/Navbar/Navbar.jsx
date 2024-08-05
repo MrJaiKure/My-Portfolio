@@ -18,7 +18,7 @@ const Navbar = () => {
 
     }
     const closeMenu = () => {
-        menuRef.current.style.right = "-350px";
+        menuRef.current.style.right = "-375px";
         document.getElementById('close-btn').style.display = 'none';
     }
     return (
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                     <li><AnchorLink className='anchor-link' href='#home'> <p onClick={() => setMenu("home")}>Home </p></AnchorLink>{menu === "home" ? <img src={underline} alt="" /> : <></>}</li>
                     <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("About me")}>About me </p></AnchorLink>{menu === "About me" ? <img src={underline} alt="" /> : <></>}</li>
-                    <li><AnchorLink className='anchor-link' offset={50} href='#service'><p onClick={() => setMenu("Services")}>Services </p></AnchorLink>{menu === "Services" ? <img src={underline} alt="" /> : <></>}</li>
+                    <li><AnchorLink className='anchor-link' offset={50} href='#skills'><p onClick={() => setMenu("Skills")}>Skills </p></AnchorLink>{menu === "Skills" ? <img src={underline} alt="" /> : <></>}</li>
                     <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={() => setMenu("Portfolio")}>Portfolio </p></AnchorLink>{menu === "Portfolio" ? <img src={underline} alt="" /> : <></>}</li>
                     <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("Contact")}>Contact </p></AnchorLink>{menu === "Contact" ? <img src={underline} alt="" /> : <></>}</li>
                 </ul>

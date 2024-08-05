@@ -25,8 +25,13 @@
 }
 
 .contact-section {
+    /* display: flex;
+    gap: 150px; */
+
     display: flex;
+    flex-wrap: wrap;
     gap: 150px;
+    justify-content: center;
 }
 
 .contact-left {
