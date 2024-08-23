@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 135px;
 }
 
 .mywork-title {
@@ -67,4 +67,10 @@
 .mywork-showmore:hover {
     gap: 30px;
     transition: 0.5s;
+}
+
+@media(max-width:700px) {
+    .mywork{
+        margin: 80px 170px;
+    }
 }

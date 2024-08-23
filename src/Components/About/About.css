@@ -58,7 +58,7 @@
 .about-skills button {
 
     color: white;
-    height: 40px;
+    height: 50px;
     border: 2px solid rgb(234, 1, 255);
     width: 150px;
     border-radius: 10px;
@@ -142,3 +142,4 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+
