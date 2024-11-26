@@ -47,7 +47,7 @@ const Contact = () => {
 
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon} alt="" /><a href="/" id='link-style' ><i>Parbhani , Maharashtra</i></a>
+                            <img src={location_icon} alt="" /><a href="/" id='link-style' ><i>Pune , Maharashtra</i></a>
                         </div>
                     </div>
 
