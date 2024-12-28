@@ -1,7 +1,7 @@
 import project1_img from '../Asests/project_1.png'
 import project2_img from '../Asests/project_2.png'
 import project3_img from '../Asests/project_3.png'
-import project4_img from '../Asests/project_4.svg'
+import project4_img from '../Asests/project_4.png'
 import project5_img from '../Asests/project_5.png'
 import project6_img from '../Asests/project_6.svg'
 
