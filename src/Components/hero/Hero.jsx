@@ -4,7 +4,7 @@ import profile_img from '../../Asests/myphoto.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
-const fileurl = "http://localhost:3000/JaideepKureresume.pdf";
+const fileurl = "/JaideepKureresume.pdf";
 const Hero = () => {
     const downloadResume = (fileurl) => {
 
@@ -15,10 +15,6 @@ const Hero = () => {
         link.click();
         document.body.removeChild(link);
     }
-
-
-
-
     return (
         <div id="home" className='hero'>
             <img src={profile_img} alt='' />
