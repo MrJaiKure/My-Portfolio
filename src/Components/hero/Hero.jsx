@@ -4,7 +4,7 @@ import profile_img from '../../Asests/myphoto.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
-const fileurl = "/JaideepKureResume_.pdf";
+const fileurl = "/JaideepKureResume..pdf";
 const Hero = () => {
     const downloadResume = (fileurl) => {
 
