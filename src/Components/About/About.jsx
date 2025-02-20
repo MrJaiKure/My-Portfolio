@@ -28,13 +28,13 @@ const About = () => {
         </div>
 
         <div className="about-sections">
-          <div className="about-left">
+          {/* <div className="about-left">
             <img src={about_profile} alt="" />
-          </div>
+          </div> */}
 
           <div className="about-right">
             <div className="about-para">
-            <h2> Education</h2>
+            <h2><b> Education</b></h2>
             <hr />
                 <div className="education">
               
