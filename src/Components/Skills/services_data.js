@@ -1,13 +1,13 @@
 const Services_Data = [
     {
         s_no: "01",
-        s_name: "Software Devlopment",
-        s_desc: "Web development is the process of building, programming..."
+        s_name: "DevOps",
+        s_desc: "DevOps focuses on automating and streamlining the software development lifecycle using tools like Docker, Jenkins, Git, Kubernetes, and Ansible for faster and more reliable deployments."
     },
     {
         s_no: "02",
-        s_name: "Web Design",
-        s_desc: "Web development is the process of building, programming..."
+        s_name: "AWS Services",
+        s_desc: "AWS Services include cloud computing, storage, databases, and deployment solutions that help build and manage scalable web applications efficiently."
     },
     {
         s_no: "03",
