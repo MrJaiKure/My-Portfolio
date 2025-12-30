@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./About.css";
 import theme_pattern from "../../Asests/theme_pattern.svg";
-import about_profile from "../../Asests/myphoto.jpg";
+// import about_profile from "../../Asests/myphoto.jpg";
 import FrontModel from "./utilities/FrontendModel";
 import BackModel from "./utilities/backskills";
 
