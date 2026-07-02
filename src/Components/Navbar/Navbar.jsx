@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../Asests/MyLogo.jpg";
 
@@ -6,8 +6,8 @@ import menu_open from "../../Asests/menu_open.svg";
 import menu_close from "../../Asests/menu_close.svg";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
   const menuRef = useRef();
 
   const openMenu = () => {
@@ -15,13 +15,20 @@ const Navbar = () => {
     document.getElementById("close-btn").style.display = "block";
     document.getElementById("nav").style.display = "block";
   };
+
   const closeMenu = () => {
     menuRef.current.style.right = "-380px";
     document.getElementById("close-btn").style.display = "none";
   };
+
   return (
     <div>
-      <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
+      <img
+        src={menu_open}
+        onClick={openMenu}
+        alt=""
+        className="nav-mob-open"
+      />
 
       <div className="navbar" id="nav">
         <img id="logo" src={logo} alt="" />
@@ -37,36 +44,36 @@ const Navbar = () => {
 
           <li>
             <AnchorLink className="anchor-link" href="#home">
-              <p onClick={() => setMenu("home")}>Home</p>
+              <p>Home</p>
             </AnchorLink>
           </li>
 
           <li>
             <AnchorLink className="anchor-link" offset={50} href="#about">
-              <p onClick={() => setMenu("About me")}>About me</p>
+              <p>About me</p>
             </AnchorLink>
           </li>
 
           <li>
             <AnchorLink className="anchor-link" offset={50} href="#skills">
-              <p onClick={() => setMenu("skills")}>Skills</p>
+              <p>Skills</p>
             </AnchorLink>
           </li>
 
           <li>
             <AnchorLink className="anchor-link" offset={50} href="#work">
-              <p onClick={() => setMenu("Portfolio")}>Portfolio</p>
+              <p>Portfolio</p>
             </AnchorLink>
           </li>
 
           <li>
             <AnchorLink className="anchor-link" offset={50} href="#contact">
-              <p onClick={() => setMenu("Contact")}>Contact</p>
+              <p>Contact</p>
             </AnchorLink>
           </li>
         </ul>
+
         <div className="nav-connect">
-          {" "}
           <AnchorLink className="anchor-link" offset={50} href="#contact">
             Connect with me
           </AnchorLink>
