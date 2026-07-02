@@ -22,7 +22,7 @@ const Footer = () => {
             <hr />
 
             <div className="footer-bottom">
-                <p className='footer-bottom-left'> @2025 Jaideep Kure. All rights reserved</p>
+                <p className='footer-bottom-left'> @2026 Jaideep Kure. All rights reserved</p>
                 <div className="footer-bottom-right">
                     <a href="/" id='link-style'>Term of Services</a>
                     <a href="/" id='link-style'>Privacy Policy</a>

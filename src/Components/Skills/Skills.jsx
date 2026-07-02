@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import theme_pattern from "../../Asests/theme_pattern.svg";
+// import theme_pattern from "../../Asests/theme_pattern.svg";
 import Services_Data from "./services_data";
 import arrow_icon from "../../Asests/arrow_icon.svg";
 // import FrontModel from './utilities/FrontendModel'
@@ -22,10 +22,10 @@ const Skills = () => {
 
   return (
     <>
-      <div id="service" className="services">
+      <div id="skills" className="services">
         <div className="services-title">
           <h1>My Skills</h1>
-          <img src={theme_pattern} alt="" />
+         
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">

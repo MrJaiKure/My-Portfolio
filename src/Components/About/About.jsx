@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./About.css";
-import theme_pattern from "../../Asests/theme_pattern.svg";
+// import theme_pattern from "../../Asests/theme_pattern.svg";
 // import about_profile from "../../Asests/myphoto.jpg";
 import FrontModel from "./utilities/FrontendModel";
 import BackModel from "./utilities/backskills";
@@ -23,7 +23,7 @@ const About = () => {
       <div id="about" className="about">
         <div className="about-title">
           <h1>About Me</h1>
-          <img src={theme_pattern} alt="" />
+          
         </div>
 
         <div className="about-sections">
