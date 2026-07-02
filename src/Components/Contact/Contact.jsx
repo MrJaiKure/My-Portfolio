@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import theme_pattern from '../../Asests/theme_pattern.svg'
+// import theme_pattern from '../../Asests/theme_pattern.svg'
 import mail_icon from '../../Asests/mail_icon.svg'
 import location_icon from '../../Asests/location_icon.svg'
 import call_icon from '../../Asests/call_icon.svg'
@@ -31,7 +31,7 @@ const Contact = () => {
         <div id='contact' className='contact'>
             <div className="contact-title">
                 <h1>Get in touch</h1>
-      
+                {/* <img src={theme_pattern} alt="" /> */}
 
             </div>
 
